@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>big</title>
+    </head>
+    <body>
+    <p>The function understands the variables from the code and gives the following answer/result</p>
+    <p>Also as the number 15 is shown below it will be multipled by a number that you get when you add 2 with another 2! Click to test it out!</p>
+    <button type="button" onclick="myfunction()">Click!</button>
+
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+
+        var x=15;
+
+        function myfunction() {
+            var y=4;
+            document.getElementById("demo").innerHTML = x * y;
+        }
+        document.getElementById("demo1").innerHTML = x;
+        document.getElementById("demo1").innerHTML = y;
+    </script>
+    </body>
+</html>
